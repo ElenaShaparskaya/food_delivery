@@ -7,6 +7,27 @@ body {
     padding: 0;
 }
 
+.btn {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 4px;
+    outline: none;
+}
+
+.btn-primary {
+    border-radius: 2px;
+    background: #1890FF;
+    border: 1px solid #1890FF;
+}
+
+.btn-outline {
+    background: #FFFFFF;
+    border-radius: 2px;
+    border: 1px solid #D9D9D9;
+    color: #595959;
+}
+
 .logo {
     max-width: 100px;
 }
@@ -25,6 +46,13 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+
+.header-controls {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
 
 .footer {
     height: 156px;
