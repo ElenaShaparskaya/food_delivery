@@ -4,53 +4,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Delivery Food</title>
 </head>
 
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="header-box">
-                <div class="header-logo logo">
-                    <img src="/images/logo.png" alt="logo">
-                </div>
-                <div class="header-controls">
-                    <button type="button" class="btn btn-primary"><img src="/images/button/user.png" alt="user">Войти
-                    </button>
-                    <button type="button" class="btn btn-outline"><img src="/images/button/basket.png"
-                            alt="basket">Корзина
-                    </button>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <main class="main">
-        <div class="container">
-            Рестораны
-        </div>
-
-    </main>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-box">
-                <div class="footer-logo logo">
-                    <img src="/images/logo.png" alt="logo">
-                </div>
-                <div class="footer-nav">
-                    <a href="#">Ресторанам</a>
-                    <a href="#">Курьерам</a>
-                    <a href="#">Пресс-центр</a>
-                    <a href="#">Контакты</a>
-                </div>
-                <div class="footer-social">
-                    <a href="#"><img src="/images/social/social.png" alt="social"></a>
+    <div class="page-wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header-box">
+                    <div class="header-logo logo">
+                        <img src="/images/logo.png" alt="logo">
+                    </div>
+                    <div class="header-controls">
+                        <button type="button" class="btn btn-primary"><img src="/images/button/user.png"
+                                alt="user">Войти
+                        </button>
+                        <button type="button" class="btn btn-outline"><img src="/images/button/basket.png"
+                                alt="basket">Корзина
+                        </button>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </header>
+
+        <main class="main">
+            <section class="banner">
+                <div class="container">
+                    <div class="banner-item">
+                        <h2 class="banner-item-title">Онлайн-сервис<br /> доставки еды на дом</h2>
+                        <p class="banner-item-subtitle">Блюда из любимого ресторана привезет<br /> курьер в перчатках,
+                            маске и
+                            с антисептиком</p>
+                    </div>
+                </div>
+            </section>
+            <section class="products">
+                <div class="container">
+                    <div class="products-header">
+                        <h3 class="products-header-title">Рестораны</h3>
+                        <input type="text" class="products-header-search" placeholder="Поиск блюд и ресторанов">
+                    </div>
+
+                    <div class="products-wrapper">
+                        <div class="products-card">
+                            <div class="products-card__image">
+                                <img src="" alt="restaurant">
+                            </div>
+                            <div class="products-card__description">
+                                <h4 class="products-card-title">Ресторан "Новый Бизнес"</h4>
+                                <p class="products-card-address">г. Москва, ул. Пушкинская, д. 12</p>
+
+                            </div>
+                        </div>
+                    </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-box">
+                    <div class="footer-logo logo">
+                        <img src="/images/logo.png" alt="logo">
+                    </div>
+                    <div class="footer-nav">
+                        <ul>
+                            <li><a href="#">Ресторанам</a></li>
+                            <li><a href="#">Курьерам</a></li>
+                            <li><a href="#">Пресс-центр</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-social">
+                        <a href="#"><img src="/images/social/insta.png" alt="instagram"></a>
+                        <a href="#"><img src="/images/social/facebook.png" alt="facebook"></a>
+                        <a href="#"><img src="/images/social/vk.png" alt="vk"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>
