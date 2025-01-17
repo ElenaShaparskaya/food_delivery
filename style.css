@@ -68,6 +68,13 @@ body {
     border: 1px solid #1890FF;
 }
 
+.btn-white {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
 .btn-outline {
     background: #FFFFFF;
     border-radius: 2px;
@@ -200,6 +207,50 @@ body {
     line-height: 32px;
     color: #000;
     margin: 0;
+}
+
+.products-card__description--name {
+    margin: 0;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.products-card__description--text {
+    margin: 0;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(140, 140, 140, 1);
+
+}
+
+.products-card__description-controls {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 29px;
+}
+
+.products-card__description-controls--price {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
 }
 
 .products-card__description-badge {
