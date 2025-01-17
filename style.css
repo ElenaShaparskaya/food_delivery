@@ -158,7 +158,8 @@ body {
     margin-bottom: 90px;
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    row-gap: 30px;
+    column-gap: 24px;
 }
 
 .products-card {
