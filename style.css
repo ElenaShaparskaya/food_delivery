@@ -360,6 +360,17 @@ body {
     justify-content: flex-end;
 }
 
+.cart-modal__overlay {}
+
+.cart-modal {}
+
+.cart-modal__header {}
+
+.cart-modal__body {}
+
+.cart-modal__footer {}
+
+
 @media (max-width: 991px) {
     .banner-item-title {
         max-width: 100%;
