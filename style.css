@@ -174,6 +174,7 @@ body {
     overflow: hidden;
     background: #FFF;
     box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.05);
+    text-decoration: none;
 }
 
 .products-card__image {
@@ -357,15 +358,19 @@ body {
 }
 
 .cart-modal__overlay {
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.4);
-    display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.cart-modal__overlay.open {
+    display: flex;
 }
 
 .cart-modal {
